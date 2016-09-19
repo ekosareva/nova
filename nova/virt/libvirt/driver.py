@@ -167,6 +167,7 @@ libvirt_volume_drivers = [
     'disco=nova.virt.libvirt.volume.disco.LibvirtDISCOVolumeDriver',
     'vzstorage='
         'nova.virt.libvirt.volume.vzstorage.LibvirtVZStorageVolumeDriver',
+    'nvme=nova.virt.libvirt.volume.nvme.LibvirtNVMEVolumeDriver',
 ]
 
 
